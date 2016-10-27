@@ -17,9 +17,9 @@ function shuffle(array) {
   return array;
 }
 
-var urls = ['https://www.youtube.com/embed/vcAO0UO5Rtk?autoplay=1&showinfo=0&loop=1&playlist=vcAO0UO5Rtk&start=',
-            'https://www.youtube.com/embed/cVyavExCJ50?autoplay=1&showinfo=0&loop=1&playlist=cVyavExCJ50&start=',
-            'https://www.youtube.com/embed/fdxu5aRRT24?autoplay=1&showinfo=0&loop=1&playlist=fdxu5aRRT24&start='];
+var urls = ['https://www.youtube.com/embed/vcAO0UO5Rtk?autoplay=1&controls=0&showinfo=0&loop=1&playlist=vcAO0UO5Rtk&start=',
+            'https://www.youtube.com/embed/cVyavExCJ50?autoplay=1&controls=0&showinfo=0&loop=1&playlist=cVyavExCJ50&start=',
+            'https://www.youtube.com/embed/fdxu5aRRT24?autoplay=1&controls=0&showinfo=0&loop=1&playlist=fdxu5aRRT24&start='];
 
 urls = shuffle(urls);
 
