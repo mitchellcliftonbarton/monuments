@@ -17,16 +17,16 @@ function shuffle(array) {
   return array;
 }
 
-var urls = ['https://www.youtube.com/embed/5Ma5yA58XJQ?autoplay=1&controls=0&showinfo=0&loop=1&playlist=5Ma5yA58XJQ&start=',
-            'https://www.youtube.com/embed/KrFt7Ud7rOk?autoplay=1&controls=0&showinfo=0&loop=1&playlist=KrFt7Ud7rOk&start=',
-            'https://www.youtube.com/embed/fdxu5aRRT24?autoplay=1&controls=0&showinfo=0&loop=1&playlist=fdxu5aRRT24&start='];
+var urls = ['https://www.youtube.com/embed/C7vIeGXlH1M?autoplay=1&controls=0&showinfo=0&loop=1&playlist=C7vIeGXlH1M&start=',
+            'https://www.youtube.com/embed/v57zIz9UK_0?autoplay=1&controls=0&showinfo=0&loop=1&playlist=v57zIz9UK_0&start=',
+            'https://www.youtube.com/embed/V_bon8DYa6A?autoplay=1&controls=0&showinfo=0&loop=1&playlist=V_bon8DYa6A&start='];
 
 urls = shuffle(urls);
 
 var newUrls = [];
 
 for (var i = 0; i < urls.length; i++) {
-  var rando = Math.random() * 250;
+  var rando = Math.random() * 1080;
   rando = Math.floor(rando);
 
   var src = urls[i]+ rando;
