@@ -21,7 +21,9 @@ var urls = ['https://www.youtube.com/embed/YGWaeGFTSgk?autoplay=1&controls=0&sho
             'https://www.youtube.com/embed/UYQYDhUttYY?autoplay=1&controls=0&showinfo=0&loop=1&playlist=UYQYDhUttYY&start=',
             'https://www.youtube.com/embed/7BeAkW37nwc?autoplay=1&controls=0&showinfo=0&loop=1&playlist=7BeAkW37nwc&start=',
             'https://www.youtube.com/embed/0L2qnEhOLkI?autoplay=1&controls=0&showinfo=0&loop=1&playlist=0L2qnEhOLkI&start=',
-            'https://www.youtube.com/embed/Tf7Sx-7KfWw?autoplay=1&controls=0&showinfo=0&loop=1&playlist=Tf7Sx-7KfWw&start='];
+            'https://www.youtube.com/embed/Tf7Sx-7KfWw?autoplay=1&controls=0&showinfo=0&loop=1&playlist=Tf7Sx-7KfWw&start=',
+            'https://www.youtube.com/embed/UgTaWP1v3ys?autoplay=1&controls=0&showinfo=0&loop=1&playlist=UgTaWP1v3ys&start=',
+            'https://www.youtube.com/embed/26-Pk9TV99k?autoplay=1&controls=0&showinfo=0&loop=1&playlist=26-Pk9TV99k&start='];
 
 urls = shuffle(urls);
 
@@ -40,6 +42,8 @@ document.getElementById('vid2').src = newUrls[1];
 document.getElementById('vid3').src = newUrls[2];
 document.getElementById('vid4').src = newUrls[3];
 document.getElementById('vid5').src = newUrls[4];
+document.getElementById('vid6').src = newUrls[5];
+document.getElementById('vid7').src = newUrls[6];
 
 window.console.log(newUrls);
 
